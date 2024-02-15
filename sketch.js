@@ -52,6 +52,7 @@ function endPath() {
 
 function draw() {
   background(255);
+  getAndDrawData();
 
   if (isDrawing) {
     var point = {
