@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>collectiveDrawing</title>
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script type="module" src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h2>About</h2>
+
+    <p>
+      This long webscroll represents a creative common space network. It intends
+      to promote sharing and awareness of the collective responsibility of a
+      digital environment that we leave behind for others.
+    </p>
+    <div class="sticky">
+      Rules - To make a drawing entry, continue building a drawing on top of the
+      narratives of any previous entries. - Select one or multiple entries you
+      wish to continue developing. - Draw anything that develops the narrative
+      of selected pre-existing drawings. - Feel free to redraw existing entries
+      and make any alterations. - Connect your drawing entry with those you
+      chose to develop (node-like). Content promoting hate speech or any other
+      harmful messages will be scratched over.
+    </div>
+    <div id="canvascontainer"></div>
+    <script src="sketch.js"></script>
+
+    <p>
+      <button id="saveButton">save</button>
+      <button id="clearButton">clear</button>
+      <!-- <button id="undoButton">undo stroke</button> -->
+    </p>
+
+    <p></p>
+    <ol id="drawinglist"></ol>
+  </body>
+</html>
