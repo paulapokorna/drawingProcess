@@ -70,7 +70,7 @@ function draw() {
 
   // SAVED DRAWINGS
   if (savedDrawings != null) {
-    stroke(255, 244, 28);
+    stroke(255);
     for (let k = 0; k < savedDrawings.length; k++) {
       var currentDrawing = savedDrawings[k];
       beginShape();
@@ -92,7 +92,7 @@ function draw() {
     currentPath.push(point);
   }
 
-  stroke(0);
+  stroke(255, 244, 28);
   strokeWeight(4);
   noFill();
   for (var i = 0; i < drawing.length; i++) {
