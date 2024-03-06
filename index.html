@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale-1.0, user-scalable=no"
+    />
+    <title>collectiveDrawing</title>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script type="module" src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="scroll-area">
+        <div class="scroll-area-content" id="canvas"></div>
+        <div class="scroll-area-content" id="video">
+          <video id="video" width="auto" height="100%" autoplay loop>
+            <source src="video.mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="top-bar text-style">
+        <div class="top-bar-row">
+          <h2>About</h2>
+          <p>
+            This long webscroll represents a creative common space network. It
+            intends to promote sharing <br />and awareness of the collective
+            responsibility of a digital environment that we leave behind for
+            others.
+          </p>
+        </div>
+        <div class="top-bar-row">
+          <h2>Tools</h2>
+          <div class="top-bar-tools">
+            <p>Save or erase your drawing:</p>
+            <button class="top-bar-button" id="button-save">Save</button>
+            <button class="top-bar-button" id="button-erase">Erase</button>
+          </div>
+        </div>
+      </div>
+      <div class="side-bar text-style">
+        <h2>Terms and Conditions</h2>
+        <ul class="side-bar-terms">
+          <li>
+            To make a drawing entry, continue building a drawing on top of the
+            narratives of any previous entries.
+          </li>
+          <li>
+            Select one or multiple entries you wish to continue developing.
+          </li>
+          <li>
+            Draw anything that develops the narrative of selected pre-existing
+            drawings.
+          </li>
+          <li>
+            Feel free to redraw existing entries and make any alterations.
+          </li>
+          <li>
+            Connect your drawing entry with those you chose to develop
+            (node-like).
+          </li>
+        </ul>
+        <p class="side-bar-disclaimer">
+          ! Content promoting hate speech or any other harmful messages will be
+          scratched over !
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
